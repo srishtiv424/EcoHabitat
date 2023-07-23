@@ -1,0 +1,38 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+<div class="user-section">
+    <div class="container">
+        <!-- User Info -->
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="user-info">
+                    <h2>Welcome, {{ current_user.username }}!</h2>
+                    <p>Email: {{ current_user.email }}</p>
+                    <p>Points: {{ current_user.points }}</p>
+                    <!-- Add more user info here if needed -->
+                </div>
+            </div>
+        </div>
+
+        <!-- All Challenges -->
+        <h3 class="mt-4">All Challenges</h3>
+        <div class="row challenge-cards">
+            {% for challenge in challenges %}
+            <div class="col-md-4">
+                <div class="card">
+                    <h4>{{ challenge.name }}</h4>
+                    <!-- <p>Start Date: {{ challenge.start_date }}</p> -->
+                    <p>Description: {{ challenge.description}} days</p>
+                    <p>Duration: {{ challenge.duration }} days</p>
+                    <p>Points: {{ challenge.points }}</p>
+                    <!-- Additional challenge details... -->
+                    <a href="#" class="btn btn-primary">Join</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
