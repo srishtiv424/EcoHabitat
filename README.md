@@ -28,3 +28,15 @@ Technologies used in the project:
 *   HTML
 *   CSS
 *   Bootstrap
+
+<h2>Preview</h2>
+
+![Screenshot (94)](https://github.com/srishtiv424/ecoHabitat/assets/108206075/39e35298-4534-4820-80e8-1343b87b743c)
+
+![Screenshot (95)](https://github.com/srishtiv424/ecoHabitat/assets/108206075/4f6ac187-ff04-4745-ad60-21cb6c325271)
+
+![Screenshot (97)](https://github.com/srishtiv424/ecoHabitat/assets/108206075/37839566-cc29-4fc7-843b-2482b7fb27d5)
+
+![Screenshot (96)](https://github.com/srishtiv424/ecoHabitat/assets/108206075/d4ac5c39-07cd-418f-964e-4ea9d316e654)
+
+
